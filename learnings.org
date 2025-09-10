@@ -2,7 +2,7 @@
 
 
 * deps.edn
-witch -M -m [namespace] clj searches in the namespace
+clj -M -m [namespace] clj searches in the namespace for the main
 clj -M -m relies on classpath resolution, so deps.edn is needed
 clj output is possible, but will give a warnng: Implicit use of clojuer.main with options is deprecated use -M
 
