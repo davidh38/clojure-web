@@ -1,0 +1,5 @@
+#+title: Readme
+
+Start the program:
+- Install clojure
+- clj -X output/run [optinal map]

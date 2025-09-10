@@ -1,0 +1,9 @@
+#+title: Learnings
+
+
+* deps.edn
+witch -M -m [namespace] clj searches in the namespace
+clj -M -m relies on classpath resolution, so deps.edn is needed
+clj output is possible, but will give a warnng: Implicit use of clojuer.main with options is deprecated use -M
+
+clj -X output/run works, but the parameter needs to be a map
