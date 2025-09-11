@@ -1,9 +1,13 @@
 #+title: Plan
 
 
-* Lets deploy this with terraform in a low cost manner
+* Lets deploy this with terraform in a low cost manner :ATTACH:
+:PROPERTIES:
+:ID:       d4b47dc2-04cd-4e24-95da-7eb7cf13432d
+:END:
 :LOGBOOK:
-CLOCK: [2025-09-11 Thu 12:36]
+CLOCK: [2025-09-11 Thu 12:53]--[2025-09-11 Thu 12:57] =>  0:04
+CLOCK: [2025-09-11 Thu 12:36]--[2025-09-11 Thu 12:53] =>  0:17
 CLOCK: [2025-09-11 Thu 12:02]--[2025-09-11 Thu 12:29] =>  0:27
 CLOCK: [2025-09-11 Thu 11:28]--[2025-09-11 Thu 11:38] =>  0:10
 CLOCK: [2025-09-11 Thu 11:26]--[2025-09-11 Thu 11:27] =>  0:01
@@ -16,6 +20,8 @@ CLOCK: [2025-09-11 Thu 10:40]--[2025-09-11 Thu 10:48] =>  0:08
 - start docker deamon
 - clone the clojure web repo
 - enter ip + port
+
+[[attachment:_20250911_125800screenshot.png]]
 
 ** docker  is server is exiting on aws
 -

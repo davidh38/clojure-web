@@ -3,6 +3,7 @@
 
 * threads
 * what is a form
+* check the dockerfile
 * evaluating
 
     (run-jetty handler {:port 3000 :join? false}) calls, but
