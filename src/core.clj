@@ -8,4 +8,6 @@
 
 ;; start server (non-blocking)
 (defn run [_]
-    run-jetty handler {:port 3000 :join? false})
+    (run-jetty handler {:port 3000 :join? false})
+
+  )

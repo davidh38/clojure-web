@@ -6,4 +6,4 @@
 
 * or with docker:
 docker build -t clojure-web .
-docker run -it -p 3000:3000 clojure-web
+sudo docker run -it -p 3000:3000 clojure-web

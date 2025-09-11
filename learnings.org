@@ -1,7 +1,18 @@
 #+title: Learnings
 
 
-*
+* threads
+* what is a form
+* evaluating
+
+    (run-jetty handler {:port 3000 :join? false}) calls, but
+
+   run-jetty handler {:port 3000 :join? false} is valid code and evaluates each form
+
+* docker commands
+docker ps -a
+docker inspect
+
 * using uberjar is preferred on prod
 * we can use datatomic for creating an electronp
 * namespaces

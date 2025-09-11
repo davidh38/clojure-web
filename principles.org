@@ -1,3 +1,5 @@
 #+title: Principles
 
+* learn progressing
+* If you change something , test it again.
 * Specify clearly the requirements
