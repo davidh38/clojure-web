@@ -1,7 +1,22 @@
 #+title: Plan
 
 
-*
+* Lets deploy this with terraform in a low cost manner
+:LOGBOOK:
+CLOCK: [2025-09-11 Thu 12:02]
+CLOCK: [2025-09-11 Thu 11:28]--[2025-09-11 Thu 11:38] =>  0:10
+CLOCK: [2025-09-11 Thu 11:26]--[2025-09-11 Thu 11:27] =>  0:01
+CLOCK: [2025-09-11 Thu 10:48]--[2025-09-11 Thu 11:18] =>  0:30
+CLOCK: [2025-09-11 Thu 10:40]--[2025-09-11 Thu 10:48] =>  0:08
+:END:
+- create a docker container in order to make it reprocuble the installation
+- create a server
+* Let us create a webapp, that outputs "Test"
+:LOGBOOK:
+CLOCK: [2025-09-11 Thu 08:27]--[2025-09-11 Thu 09:10] =>  0:43
+CLOCK: [2025-09-10 Wed 21:45]--[2025-09-10 Wed 21:47] =>  0:02
+:END:
+** let us use ring + reitit for that
 * Push to git
 :LOGBOOK:
 CLOCK: [2025-09-10 Wed 19:53]--[2025-09-10 Wed 20:02] =>  0:09

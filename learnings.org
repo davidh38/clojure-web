@@ -1,6 +1,21 @@
 #+title: Learnings
 
 
+*
+* using uberjar is preferred on prod
+* we can use datatomic for creating an electronp
+* namespaces
+like modules in python or packages in java
+ns macro determines the namespace, not the file name, but tooling would break, if filename convention no t used
+* defonce
+ define only once even when reloading the namespace: e.g. webserver definition
+* -i in curl
+include headers
+* ring + reitit
+- Ring is a Clojure library that turns HTTP requests into Clojure maps, runs them through a pipeline of middleware and handlers, and turns the result back into an HTTP response.  Ring is the pipeline (spec + library) that sits behind the webserver (adapter), handling requests as Clojure data and producing responses. -> A webserver can handle the network connections and sends the data to ring.
+- reitit: a routing library pluggable into ring, that maps url + methods to function, otherwise we would need handle the request manually
+- compojure is an older routing library on top of ring
+
 * deps.edn
 clj -M -m [namespace] clj searches in the namespace for the main
 clj -M -m relies on classpath resolution, so deps.edn is needed

@@ -1,5 +1,9 @@
 #+title: Readme
 
-Start the program:
+* Start the program:
 - Install clojure
-- clj -X output/run [optinal map]
+- clj -X core/run [optionnal map]
+
+* or with docker:
+docker build -t clojure-web .
+docker run -it -p 3000:3000 clojure-web
